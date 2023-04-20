@@ -6,7 +6,6 @@ import io.cucumber.java.Scenario;
 public class PrepareSteps {
 
     @Before(order = 600)
-    @Step("Start Browser")
     public void startBrowser(Scenario scenario) {
 
     }
